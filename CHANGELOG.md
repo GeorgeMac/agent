@@ -13,6 +13,13 @@ internal API changes are not present.
 Main (unreleased)
 -----------------
 
+### Features
+
+- New Grafana Agent Flow components:
+
+  - `otelcol.auth.sigv4` performs `sigv4` authentication for making requests to AWS services 
+    via `otelcol` components that support authentication extensions. (@ptodev)
+
 v0.32.0-rc.0 (2023-02-23)
 -------------------------
 
